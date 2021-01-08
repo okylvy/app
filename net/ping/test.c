@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "ping.h"
+#include "../nettools.h"
 
 void Test() {
     // THIS IS DUMMY TEST!

@@ -1,4 +1,4 @@
-#include "ping.h"
+#include "../nettools.h"
 
 struct __attribute__((packed)) ICMPMessage {
     uint8_t type;
