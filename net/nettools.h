@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -11,6 +12,7 @@
 #include <arpa/inet.h>
 
 #define BUFFER_SIZE 2000
+#define SIZE_REQUEST 1000
 
 typedef uint32_t socklen_t;
 
