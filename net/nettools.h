@@ -13,6 +13,7 @@
 
 #define BUFFER_SIZE 2000
 #define SIZE_REQUEST 1000
+#define SIZE_RESPONSE 1000
 
 typedef uint32_t socklen_t;
 

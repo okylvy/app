@@ -65,6 +65,12 @@ void add_body(char *request) {
 
 void send_request(char *request) {
 // TODO: implement udp socket connection.
+    int soc_fd = 0;
+    struct sockaddr_in addr;
+    int addrlen = sizeof(addr);
+    char response[SIZE_RESPONSE];
+
+
 }
 
 int main(int argc, char **argv) {
